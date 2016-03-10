@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.paktpub.phonegaphotshot.ch07"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.paktpub.phonegaphotshot.ch07"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.paktpub.phonegaphotshot.ch07"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.paktpub.phonegaphotshot.ch07"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.paktpub.phonegaphotshot.ch07"
+        }
+    },
+    "dependent_plugins": {}
+}
