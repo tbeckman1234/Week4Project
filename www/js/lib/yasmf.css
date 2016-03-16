@@ -22,6 +22,7 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 /*
+ * Added classes for followup and archive
  *
  * Eric Meyer's Reset CSS v2.0 - http://cssreset.com
  *
@@ -1219,6 +1220,22 @@ div {
   -ms-mask-image: url("./yasmf-assets/menu@2x.png");
   -o-mask-image: url("./yasmf-assets/menu@2x.png");
   mask-image: url("./yasmf-assets/menu@2x.png"); }
+  
+  .ui-glyph-Archive {
+	  padding-left: 10px;
+  -webkit-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  -moz-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  -ms-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  -o-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  mask-image: url("./yasmf-assets/file-cabinet-transparent.png"); }
+  
+    .ui-glyph-Followup {
+		padding-left: 10px;
+  -webkit-mask-image: url("./yasmf-assets/push-pin-transparent.png");
+  -moz-mask-image: url("./yasmf-assets/push-pin-transparent.png");
+  -ms-mask-image: url("./yasmf-assets/push-pin-transparent.png");
+  -o-mask-image: url("./yasmf-assets/push-pin-transparent.png");
+  mask-image: url("./yasmf-assets/push-pin-transparent.png"); }	  
 
 /*****************************************************************************
  *

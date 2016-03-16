@@ -180,6 +180,11 @@ body.android {
 .android .noteListView .ui-list-item .note-representation.ui-glyph-film {
   background-color: #99CC00;
 }
+
+.note-representation.ui-glyph-Followup {
+	background-color: red;
+}
+	
 /* position and style the name of the note */
 
 .noteListView .ui-list-item .note-name {

@@ -21,6 +21,10 @@
  * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
  * OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
+ 
+  * Modified to add functionality for status where indicated 3/10/2016
+  
+  
  */
 /*jshint
          asi:true,
@@ -62,6 +66,8 @@ define( [ "yasmf", "app/models/noteStorageSingleton",
     self.render = function() {
       return _y.template( videoNoteViewHTML, {
         "NOTE_NAME": self._note.name,
+				//added status
+		"STATUS": self._note.status,
         "NOTE_CONTENTS": self._note.textContents,
         "BACK": _y.T( "BACK" ),
         "DELETE_NOTE": _y.T( "app.nev.DELETE_NOTE" )
